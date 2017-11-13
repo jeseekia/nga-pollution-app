@@ -20,3 +20,14 @@ main {
   border: solid black 2px;
   float: right;
 }
+
+nav i{   
+    -webkit-transition: -webkit-transform 1s linear;
+    -ms-transition: -ms-transform 1s linear;
+    transition: transform 1s linear;
+}
+nav i:hover{
+    transform:rotate(360deg);
+    -ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
+}
