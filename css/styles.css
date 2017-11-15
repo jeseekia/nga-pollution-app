@@ -1,10 +1,29 @@
-body {
-  background-color: pink;
-}
+/*
+Theme colors:
+teal (fresh) #4abdac
+orange (vermillion) #fc4a1a
+sunshine (yellow) #f7b733
+gray (clean) #dfdce3
+*/
 
+body {
+  margin: 0;
+  background-color: #dfdce3;
+  font-family: 'Gudea', sans-serif;
+}
+h1, h2, h3, h4, h5, h6
+{
+  font-family: 'Arima Madurai', cursive;
+}
 header {
   border: solid black 2px;
   min-height: 10%;
+}
+
+button {
+  position: fixed;
+  top: 5px;
+  left: 5px;
 }
 
 nav {
@@ -21,13 +40,20 @@ main {
   float: right;
 }
 
-nav i{   
+ul
+  {
+    list-style: none;
+  }
+
+
+nav i{
     -webkit-transition: -webkit-transform 1s linear;
     -ms-transition: -ms-transform 1s linear;
     transition: transform 1s linear;
 }
 nav i:hover{
-    transform:rotate(360deg);
+
     -ms-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
+    transform:rotate(360deg);
 }
