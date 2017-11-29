@@ -40,7 +40,7 @@ main {
   float: right;
 }
 
-ul
+nav ul
   {
     list-style: none;
   }
@@ -56,4 +56,26 @@ nav i:hover{
     -ms-transform:rotate(360deg);
     -webkit-transform:rotate(360deg);
     transform:rotate(360deg);
+}
+
+section:nth-child(even) img {
+  float:right;
+}
+section:nth-child(odd) img {
+  float:left;
+}
+
+section img{
+  width:100px
+}
+
+section:nth-child(even) h2, section:nth-child(even) p{
+float: left;
+}
+section:nth-child(odd) h2, section:nth-child(odd) p{
+float:right;
+}
+
+section p{
+  width:150px;
 }
