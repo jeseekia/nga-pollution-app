@@ -18,12 +18,16 @@ h1, h2, h3, h4, h5, h6
 header {
   border: solid black 2px;
   min-height: 10%;
+  background-color:  #fc4a1a;
 }
 
 button {
   position: fixed;
   top: 5px;
   left: 5px;
+  color: #f7b733;
+  background-color: #4abdac;
+  border-color: #4abdac;
 }
 
 nav {
@@ -31,6 +35,14 @@ nav {
   width: 25%;
   border: solid black 2px;
   float: left;
+  background-color: #4abdac;
+}
+nav a:link{
+color: #f7b733;
+}
+
+nav a:visited{
+color: #f7b733;
 }
 
 main {
@@ -50,6 +62,7 @@ nav i{
     -webkit-transition: -webkit-transform 1s linear;
     -ms-transition: -ms-transform 1s linear;
     transition: transform 1s linear;
+
 }
 nav i:hover{
 
