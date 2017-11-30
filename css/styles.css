@@ -71,11 +71,19 @@ section img{
 
 section:nth-child(even) h2, section:nth-child(even) p{
 float: left;
+clear: left;
 }
 section:nth-child(odd) h2, section:nth-child(odd) p{
 float:right;
+clear: right;
 }
 
 section p{
-  width:150px;
+  width:500px;
+}
+
+section {
+  width:600px; height:200px;
+  margin-left: auto;
+  margin-right: auto;
 }
