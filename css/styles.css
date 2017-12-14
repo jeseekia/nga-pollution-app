@@ -21,6 +21,10 @@ header {
   background-color:  #fc4a1a;
 }
 
+#special img {
+  max-width: 500px;
+}
+
 button {
   position: fixed;
   top: 5px;
